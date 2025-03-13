@@ -4,9 +4,9 @@
 #include "dependencies/include/libpq-fe.h"
 
 #define PG_HOST    "localhost" //indirizzo-nome database server
-#define PG_USER    "fbellon"  //inserire user corretto
-#define PG_DB      "provabella"  //inserire db corretto 
-#define PG_PASS    "itRxZi,Xwi9e" 	// inserire password corretta
+#define PG_USER    "user"  //inserire user corretto
+#define PG_DB      "user"  //inserire db corretto 
+#define PG_PASS    "user" 	// inserire password corretta
 #define PG_PORT    15432
 
 void checkCommand(PGresult *res, const PGconn *conn) {
